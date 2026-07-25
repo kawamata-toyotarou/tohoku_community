@@ -25,7 +25,7 @@ py app.py
 管理者アカウント（異議申し立て審査用）は起動時に自動生成されます。
 
 ```
-admin@tohoku.ac.jp  （氏名欄は空でOK、初回登録済みのため）
+admin@dc.tohoku.ac.jp  （氏名欄は空でOK、初回登録済みのため）
 ```
 
 `ALLOWED_EMAIL_DOMAIN` 環境変数でドメインを変更できます。
