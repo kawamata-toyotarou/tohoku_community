@@ -13,4 +13,4 @@ class Config:
     # 大学のGoogle Workspaceドメイン。
     # 本番では Google OAuth のトークンに含まれる `hd` (hosted domain) クレームを
     # このドメインと突き合わせて検証すること（README参照）。
-    ALLOWED_EMAIL_DOMAIN = os.environ.get("ALLOWED_EMAIL_DOMAIN", "tohoku.ac.jp")
+    ALLOWED_EMAIL_DOMAIN = os.environ.get("ALLOWED_EMAIL_DOMAIN", "dc.tohoku.ac.jp")
